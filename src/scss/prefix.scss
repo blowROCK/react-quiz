@@ -1,0 +1,55 @@
+$point: #82d7cd;
+$point_hover: #96efe4;
+$font-color: #383d43;
+$button-shadow: rgb(0 0 0 / 10%) 0px 3px 12px 0px;
+
+html, body{
+  overflow: overlay;
+  scroll-behavior: smooth;
+  font-family: 'NanumSquare', 'Black Han Sans', sans-serif;
+}
+html, body, #root{
+  width: 100%;
+  height: 100%;
+}
+  
+img{
+  width: 100%;
+}
+
+.font_black{
+  font-family: 'Black Han Sans', sans-serif;
+}
+  
+.flex{
+  display: flex;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.column{
+  flex-direction: column;
+}
+
+.w100{
+  width: 100%;
+}
+.h100{
+  height: 100%;
+}
+
+button{
+  cursor: pointer;
+  background-color: $point;
+  border: 1px solid transparent;
+  box-shadow: $button-shadow;
+  padding: 10px 18px 8px;
+  min-height: 48px;
+  color: $font-color;
+  border-radius: 4px;
+  transition: all 250ms cubic-bezier(0.13, 0.7, 0.4, 0.99);
+  &:hover{
+    background-color: $point_hover;
+  }
+}

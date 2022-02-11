@@ -1,0 +1,26 @@
+@import './../scss/prefix.scss';
+
+#Welcome{
+  .welcome-container{
+    .welcome-image{
+      width: 53vw;
+      max-width: 620px;
+      min-width: 380px;
+    }
+    .welcom-title{
+      word-break: keep-all;
+      font-weight: unset;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 12px;
+    }
+    .welcome-button{
+      margin: 0px;
+      max-width: 100%;
+      word-break: keep-all;
+      font-weight: unset;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}
